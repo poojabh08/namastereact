@@ -8,21 +8,15 @@
 </head>
 <body>
     <div id="root">
-        <h1>Namaste Everyone!</h1>
     </div>
 </body>
-<script
-  crossorigin
-  src="https://unpkg.com/react@16/umd/react.production.min.js"
-></script>
-<script
-  crossorigin
-  src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
-></script>
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 <script>
-    const heading = document.createElement("h1");
-    heading.innerHTML = "Hello World!";
-    const root = document.getElementById("root");
-    root.appendChild(heading);
+    // using React.createElement
+    const heading = React.createElement("h1", {}, "Namaste Everyone!!!");
+
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(heading);
 </script>
 </html>
