@@ -1,0 +1,61 @@
+1. What is Emmet?
+Emmet is a plug-in used by code editor which gives shortcuts(code snippets)
+
+2. What is the difference between library and framework?
+Framework 
+* It is comprises of APIs, compilers, support programs and libraries etc.
+* Difficult to replace Frameworks
+* A framework development requires a lot of code that decreases performance and increase the load time.
+* Including a framework into a existing project is difficult
+* Example NodeJS, Spring, AngularJS
+
+Library 
+* It comprises of modules, classes, objects, functions etc.
+* It can be easily replaced with another library.
+* Building a library requires less code so there is better performance and fast load time.
+* Libraries can be easily integrated to an existing projects to add some specific functionality.
+* example ReactJS, JQueary ...
+
+3. What is CDN?
+A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.
+A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos.
+
+4. Why React is known as React?
+Because it reacts. It is developed by Facebook devs to improve the user interface development and more effectively change what the user sees when they are
+clicking mouse, typing, and submitting.
+
+5. What is crossorigin in script tag?
+The crossorigin sets the mode of the request to an HTTP CORS Request.
+
+6. Differnce between React vs ReactDOM?
+React 
+React is a Javascript library, designed for building better user interfaces.
+whenever we use classes, components, elements we use React
+
+ReactDOM
+ReactDOM is a complimentory library to React which glues React to the browser DOM. which is responsible for rendering the react components
+whenever we use render(), findDOMNode() we use ReactDOM
+
+7. Difference between react.development.js and react.production.js files via CDN ?
+The development build is used - as the name suggests - for development reasons. You have Source Maps, debugging and often times hot reloading ability in
+those builds.
+
+The production build, on the other hand, runs in production mode which means this is the code running on your client's machine. The production build runs
+uglify and builds your source files into one or multiple minimized files. It also extracts CSS and images and of course any other sources you're loading
+with Webpack. There's also no hot reloading included. Source Maps might be included as separate files depending on your webpack devtool settings.
+
+8. Difference between async and defer ?
+async - When the async keyword is used in the script tag then the content of the link inluded in the script is loaded asynchronously while
+parsing the html and then parsing is paused and the script code is executed and later the HTML parsing is resumed.
+
+defer - When the async keyword is used in the script tag then the content of the link inluded in the script is loaded parallely and the code is
+executed in parallel to the html parsing.
+
+
+
+
+
+
+
+
+
